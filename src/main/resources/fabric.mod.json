@@ -3,27 +3,27 @@
 	"id": "more-pets",
 	"version": "${version}",
 	"name": "more-pets",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Allow more mobs to be pets",
 	"authors": [
-		"Me!"
+		"coryd"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/coryo12345/fabric-more-pets",
+		"sources": "https://github.com/coryo12345/fabric-more-pets"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/more-pets/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"morepets.Morepets"
+			"morepets.MorePets"
 		]
 	},
 	"mixins": [
 		"more-pets.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.10",
+		"fabricloader": ">=0.16.9",
 		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
