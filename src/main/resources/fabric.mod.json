@@ -30,5 +30,11 @@
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+	"custom": {
+		"loom:injected_interfaces": {
+			"net/minecraft/entity/player/PlayerEntity": ["morepets/interfaces/IPetList"],
+			"net/minecraft/entity/passive/CowEntity": ["morepets/interfaces/ITameable", "morepets/interfaces/ICustomNbt"]
+		}
 	}
 }

@@ -3,7 +3,8 @@
 	"package": "morepets.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"CowFollowMixin",
+		"PlayerPetsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
